@@ -25,4 +25,3 @@ def predict():
         return render_template('form.html', prediction=my_prediction)
 if __name__ == '__main__':
 	app.run(debug=True)
-
